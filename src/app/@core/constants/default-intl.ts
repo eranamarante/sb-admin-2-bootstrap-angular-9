@@ -1,6 +1,8 @@
 import { OwlDateTimeIntl} from 'ng-pick-datetime';
+import { Injectable } from '@angular/core';
 
 // here is the default text string
+@Injectable()
 export class DefaultIntl extends OwlDateTimeIntl {
     /** A label for the up second button (used by screen readers).  */
     upSecondLabel = 'Añadir un segundo';
