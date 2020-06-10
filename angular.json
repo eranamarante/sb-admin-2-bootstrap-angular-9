@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "start-bootstrap-admin-two-angular"
+    }
+  },
+  "defaultProject": "start-bootstrap-admin-two-angular",
+  "cli": {
+    "analytics": false
+  }
 }
